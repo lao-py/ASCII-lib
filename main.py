@@ -45,7 +45,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -58,7 +58,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -72,7 +72,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -85,7 +85,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -93,7 +93,7 @@ def main(decide):
 
 
     elif decide == 6:
-        print("I'm Lao Takanava. I'm starter python programmer. \n"
+        print(Fore.MAGENTA + "I'm Lao Takanava. I'm starter python programmer. \n"
             "If you want you can subscribe my tg channels:\n"
             "https://t.me/c_lao_tg\n"
             "https://t.me/laosint")
@@ -101,7 +101,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -119,7 +119,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -137,7 +137,7 @@ def main(decide):
         decide = int(input(Fore.BLUE + '[l@osint]Enter number of function: '))
 
         if decide == 99:
-            print('[l@osint]Program finished')
+            print(Fore.RED + '[l@osint]Program finished')
             exit()
         elif decide == 0:
             os.system('cls')
@@ -145,7 +145,7 @@ def main(decide):
 
 
     elif decide == 99:
-        print('[l@osint]Program finished')
+        print(Fore.RED + '[l@osint]Program finished')
         exit()
 
 main(decide)
