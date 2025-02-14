@@ -1,4 +1,4 @@
-pyfiglet
+pywhatkit
 cowsay
 random
 time
